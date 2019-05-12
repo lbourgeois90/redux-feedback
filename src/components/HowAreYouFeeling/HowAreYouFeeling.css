@@ -1,0 +1,71 @@
+.feedbackInputDiv{
+    box-sizing: border-box;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+hr{
+    background-color: #BC4123;
+    width: 80%
+
+}
+
+
+form{
+    color: white;
+    font-size: 22px;
+    margin: 0 auto;
+    width: 1000px;
+    margin-top: 50px;
+}
+
+h1{
+    color: white;
+    font-weight: 300;
+}
+.form-check{
+    margin-top: 25px;
+    margin: 40px;
+    
+}
+
+.btn {
+    border: 1px solid #BC4123;
+    color: #BC4123;
+    margin: 0 auto;
+    display: block;
+}
+
+.form-control{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+
+.textAreaLabel{
+    color: #BC4123;
+    font-weight: 300;
+}
+
+.swal-modal{
+    background-color:#0B172A;
+   
+}
+
+.swal-text, .swal-title{
+    color: white;
+}
+
+.swal-button{
+    background-color: #BC4123;
+    color: black;
+}
+
+.swal-icon--success:before, .swal-icon--success:after, .swal-icon--success__hide-corners{
+    background-color: #0B172A;
+}
+

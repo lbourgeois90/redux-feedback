@@ -1,0 +1,42 @@
+
+.feedbackSection {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 25px;
+    text-align: center;
+    
+}
+
+h2{
+    color: white;
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.feedbackSection >h3{
+    color: white;
+    text-align: left;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+thead, th{
+    color: #BC4123;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.table-borderless {
+    border: 0;
+
+}
+
+td{ 
+    color: white;
+    font-size: 20px;
+}
+
+.table{
+    margin-bottom: 50px;
+}

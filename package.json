@@ -1,0 +1,52 @@
+{
+  "name": "react-reflection-board",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "@sweetalert/with-react": "^0.1.1",
+    "axios": "^0.17.1",
+    "bootstrap": "^4.3.1",
+    "express": "^4.16.4",
+    "material-design-icons": "^3.0.1",
+    "pg": "^7.4.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^2.1.3",
+    "react-stepper-horizontal": "^1.0.11",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "sweetalert": "^2.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  },
+  "scripts": {
+    "start": "react-scripts build && node server/server.js",
+    "client": "react-scripts start",
+    "server": "nodemon --watch server server/server.js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "description": "> **PLEASE COMMENT YOUR CODE.** Do not clone this repository. Instead, download the zip, extract the contents, `git init`, `git add .`, `git commit -m \"initial commit - base project\"` and add your remote. Please do this before you leave for the day.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbourgeois90/redux-feedback-loop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lbourgeois90/redux-feedback-loop/issues"
+  },
+  "homepage": "https://github.com/lbourgeois90/redux-feedback-loop#readme"
+}
